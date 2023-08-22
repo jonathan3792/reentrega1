@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../proyectofinal+medina/wireframe"
+		},
+		{
+			"path": "../proyectofinal+medina/node_modules"
+		},
+		{
+			"path": "../proyectofinal+medina/.git"
+		}
+	],
+	"settings": {}
+}
