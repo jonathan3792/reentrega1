@@ -1,85 +1,133 @@
-.conteiner{
-    display: flex;
-    justify-content: center;
+div.galeria img{
+  width: 100%;
+  height: auto;
+}
+
+.descripcion{
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+.responsive{
+  position: relative;
+  padding-top: 30.25%;
+
+}
+
+
+.responsive iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+  
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+      font-size: 16px;
+  }
+  .contenedor {
+      width: 90%;
+      margin: 0 auto;
   }
   
-  table{
-    border-collapse: collapse;
-    border: 2px solid grey;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-    background-color: rgb(197, 197, 197);
+}
+
+
+@media (max-width: 767px) {
+  body {
+      font-size: 14px;
+  }
+  .contenedor {
+      width: 95%;
+      margin: 0 auto;
+  }
+  
+}
+
+@media (min-width: 1025px) {
+  body {
+      font-size: 18px;
+  }
+  .contenedor {
+      width: 80%;
+      margin: 0 auto;
+  }
+  
+}
+
+
+@media (max-width: 767px) {
+  .responsive {
+      overflow: hidden;
+      padding-top: 56.25%; 
+      position: relative;
+  }
+
+  .responsive iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+
+  .centrado {
+      flex-direction: column; 
+  }
+
+  .galeria {
+      width: 100%; 
+      margin-bottom: 20px; 
+  }
+
+  
+}
+
+@media screen and (min-width: 769px) {    
+  .centrado {  
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .galeria {
+      width: calc(25% - 10px); 
+      margin-right: 20px; 
+      border: 10px solid #0d0e0e; 
+    padding: 10px; 
+    margin: 10px;
+  }
+
+  
+
+  
+
+   }
+
+
    
-  }
-  
-  th{
-    text-align: left;
-    border: 1px solid grey;
-    padding: 10px;
-    background-color: rgb(110, 110, 110);
-    
-  }
-  
-  td{
-    border: 1px solid grey;
-    padding: 10px;
-    
-  }
-  
-  h2{
-    margin: 0;
-    padding: 20px;
-  }
-  
-  tr:hover{
-    background-color: rgb(205, 205, 205);
-  }
-  
-  
-  
-  
-  
-  
-  
-  .container{
-    background-color: #999;
-    border-radius: 10px;
-    margin: 10px 0;
-    padding: 20px;
-    width: 50%;
-    position: relative;
-    left: 25%;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  select,
-  textarea{
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid rgb(70, 70, 70);
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-  
-  input[type="submit"]{
-    width: 100%;
-    background-color: green;
-    color: white;
-    padding: 15px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  textarea:focus,input:focus{
-    background-color: rgb(255, 209, 252);
-  }
-  
-  input[type="submit"]:hover{
-    background-color: rgb(21, 207, 64);
-  }
-  
+
   
